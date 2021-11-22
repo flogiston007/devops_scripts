@@ -23,7 +23,7 @@ if [ ! -d $DIRECTORY ]; then
 	exit 0
 fi
 
-$(sudo chown -R $USER_NAME $DIRECTORY)
+$(sudo chown -R $USER_NAME:$USER_NAME $DIRECTORY)
 if [ $? -eq 1 ]
 then
    echo "Something went wrong"
