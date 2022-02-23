@@ -12,7 +12,7 @@ wp_file="$wp_path/wordpress.zip"
 cd $home_dir
 wget $wp_link -O $wp_file
 unzip $wp_file -d $wp_path
-mv $wp_path/wordpress/* $wp_path
+mv -f $wp_path/wordpress/* $wp_path
 rm $wp_file
 rm -rf $wp_path/wordpress/ $wp_path/index.html
 #chmod -R 777 $wp_path
