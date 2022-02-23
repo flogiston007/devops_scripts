@@ -2,11 +2,9 @@
 # Adding php wrapper
 user="$1"
 domain="$2"
+ip="$3"
 home_dir="$4"
 docroot="$5"
-wp_password="$6"
-wp_database="$7"
-wp_database_user="$8"
 wp_link="https://wordpress.org/latest.zip"
 wp_path="/home/$user/web/$domain/public_html"
 wp_file="$wp_path/latest.zip"
