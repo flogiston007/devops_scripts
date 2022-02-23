@@ -7,7 +7,7 @@ docroot="$5"
 wp_password="$6"
 wp_database="$7"
 wp_database_user="$8"
-wp_link="http://ru.wordpress.org/latest-ru_RU.zip"
+wp_link="https://wordpress.org/latest.zip"
 wp_path="/home/$user/web/$domain/public_html"
 wp_file="$wp_path/wordpress.zip"
 cd $home_dir
